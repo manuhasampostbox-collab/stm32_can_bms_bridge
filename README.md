@@ -1,2 +1,2 @@
-# stm32_can_bms_bridge
-STM32F103 CAN-to-UART bridge for a Daly BMS: KiCad PCB (STM32, CAN transceiver, ESP32) and bare-metal firmware that reads pack voltage and current over CAN and sends JSON to an ESP32. 39 host unit tests.
+STM32 CAN BMS Bridge
+STM32F103 firmware and KiCad PCB that poll a Daly BMS over CAN (250 kbit/s, 29-bit IDs), decode voltage and current, and forward JSON lines to an ESP32 over UART. ERC/DRC clean, 39 host unit tests. Not yet fabricated or tested on a real BMS
